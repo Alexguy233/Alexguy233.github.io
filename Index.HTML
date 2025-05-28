@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecordingPrototype</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="initialPrototype.css">
+</head>
+<body>
+    
+    <main>
+        <div class="nameinput"><label for="firstname">Enter your first name:</label>
+        <input id="firstname" name="firstname">
+        <label for="lastname">Enter your last name:</label>
+        <input id="lastname" name="lastname"></div>
+
+        <button class="mic-toggle" id="mic">
+            <span class="material-icons">mic</span>
+        </button>
+
+        <audio class="playback" controls></audio>
+
+        <button class="submit" id="submit">Submit Recording</button>
+
+    </main>
+
+    <script src="initialPrototype.js" type="module"></script>
+</body>
+</html>
